@@ -26,7 +26,7 @@ newsRouter.get('/:id', async(req, res) => {
     let articleID = req.params.id
 
     try {
-        const newsAPI = await axios.get(`WP Endpoint/${articleID}`)
+        const newsAPI = await axios.get(`WP Endpoint${articleID}`)
         res.render('newsSingle', { article : newsAPI.data })
     } catch (err) {
         if(err.response) {
