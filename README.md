@@ -1,2 +1,2 @@
 # news-website
-Add Wordpress Endpoint in news.js or API
+Add wordpress endpoint or API in news.js file.
